@@ -55,24 +55,13 @@ const Navbar = ({ toggle }) => {
             <NavMenu>
               <NavItem>
                 <NavLinks
-                  to="/"
-                  smooth={true}
-                  duration={500}
-                  spy={true}
-                  exact="true"
-                  offset={-80}>
-                  Home
-                </NavLinks>
-              </NavItem>
-              <NavItem>
-                <NavLinks
                   to="discovery"
                   smooth={true}
                   duration={500}
                   spy={true}
                   exact="true"
                   offset={-80}>
-                  Products
+                  Giới Thiệu
                 </NavLinks>
               </NavItem>
               <NavItem>
@@ -83,7 +72,29 @@ const Navbar = ({ toggle }) => {
                   spy={true}
                   exact="true"
                   offset={-80}>
-                  About
+                  Nội Thất
+                </NavLinks>
+              </NavItem>
+              <NavItem>
+                <NavLinks
+                  to="about"
+                  smooth={true}
+                  duration={500}
+                  spy={true}
+                  exact="true"
+                  offset={-80}>
+                  Ngoại Thất
+                </NavLinks>
+              </NavItem>
+              <NavItem>
+                <NavLinks
+                  to="about"
+                  smooth={true}
+                  duration={500}
+                  spy={true}
+                  exact="true"
+                  offset={-80}>
+                  Liên Hệ
                 </NavLinks>
               </NavItem>
               <NavItem>
@@ -94,7 +105,7 @@ const Navbar = ({ toggle }) => {
                   spy={true}
                   exact="true"
                   offset={-80}>
-                  Sign Up
+                  Đăng Kí
                 </NavLinks>
               </NavItem>
             </NavMenu>

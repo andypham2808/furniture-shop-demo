@@ -22,14 +22,11 @@ const Sidebar = ({ isOpen, toggle }) => {
       </Icon>
       <SidebarWrapper>
         <SidebarMenu>
-          <SidebarLink to="/" onClick={toggle}>
-            Home
-          </SidebarLink>
           <SidebarLink to="products" onClick={toggle}>
-            Products
+            About
           </SidebarLink>
           <SidebarLink to="about" onClick={toggle}>
-            About
+            Product
           </SidebarLink>
           <SidebarLink to="signup" onClick={toggle}>
             Sign up
